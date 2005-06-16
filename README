@@ -1,15 +1,10 @@
 Wx-Perl-Imagick
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it get an idea of the modules uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+This class is meant to be a replacement for Wx::Image, adding all functionality of Image::Magick. Hence
+the name Wx::Perl::Imagick.
+Most of the API of Wx::Image has been copied for backwards compatibility, but you can also call any method
+of Image::Magick on a constructed Wx::Perl::Magick instance. This will greatly improve the possibilities
+you have with an image in wxPerl.
 
 INSTALLATION
 
@@ -23,7 +18,7 @@ To install this module, run the following commands:
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
+Wx::Perl::Imagick is released under the same terms as Perl itself
 
 Copyright (C) 2005 Jouke Visser
 

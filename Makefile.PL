@@ -9,7 +9,9 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib\Wx\Perl\Imagick.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
+        'Test::More'    => 0,
+        'Wx'            => 0,
+        'Image::Magick' => 0
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Wx-Perl-Imagick-*' },
